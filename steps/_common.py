@@ -55,7 +55,7 @@ HEDGER           = Web3.to_checksum_address(_required("HEDGER"))
 TPSL_BOT_ADDRESS = Web3.to_checksum_address(_required("TPSL_BOT_ADDRESS"))
 COLLATERAL_TOKEN = Web3.to_checksum_address(_required("COLLATERAL_TOKEN"))
 
-SYMMIO_API     = _required("SYMMIO_API")
+SOLVER_API     = _required("SOLVER_API")
 SOLVER_BASE    = _required("SOLVER_BASE")
 # Symbols endpoint -- full URL because the path differs across deployments
 # (staging uses /bsapi/contract-symbols, prod uses /api/contract-symbols).
