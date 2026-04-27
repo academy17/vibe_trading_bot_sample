@@ -2,7 +2,7 @@
 Shared config, ABIs, helpers, and a tiny JSON state file used by every
 step script in this folder.
 
-Configuration is loaded from a `.env` file in this folder (see .env.example).
+Configuration is loaded from the `.env` file in this folder (see .env.example).
 Each step reads what it needs from `.state.json`, does its thing, and
 writes what the next step will need.  Delete `.state.json` to start over.
 """
