@@ -1,0 +1,6 @@
+.env
+*.state.json
+*.state.json.bak.*
+__pycache__/
+*.pyc
+TRADING_ON_VIBE.md
