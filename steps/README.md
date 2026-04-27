@@ -1,6 +1,6 @@
 # Step-by-step scripts
 
-Each file runs independently.  Setup-once steps (01, 03b) stay valid
+Each file runs independently.  Setup-once steps (01, 02b) stay valid
 forever; session steps (03) last until the key expires (typically 24 h);
 trading steps (04-07) can be re-run as often as you like.  Multiple open
 positions are fine — every trading action is keyed by `quote_id`.
